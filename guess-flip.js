@@ -9,6 +9,11 @@ if (call == undefined) {
     console.error("Usage: node guess-flip --call=[heads|tails]");
     process.exit(1)
 }
+if (call != "heads" || "tails") {
+    console.error("Error: no input");
+    console.error("Usage: node guess-flip --call=[heads|tails]");
+    process.exit(1)
+}
 
 var output4 = flipACoin(call);
 console.log(output4);
