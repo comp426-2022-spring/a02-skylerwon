@@ -7,5 +7,4 @@ const number = args.number || 1
 
 var output2 = coinFlips(number);
 console.log(output2); 
-var output3 = countFlips(output2);
-console.log(output3);
+console.log(countFlips(output2));
