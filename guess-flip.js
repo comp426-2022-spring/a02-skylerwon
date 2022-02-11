@@ -1,5 +1,5 @@
 import minimist from "minimist";
-import {coinFlip, coinFlips, countFlips, flipACoin} from '/Users/skye/github-classroom/comp426-2022-spring/a02-skylerwon/modules/coin.mjs';
+import {coinFlip, coinFlips, countFlips, flipACoin} from './modules/coin.mjs';
 
 const args = minimist(process.argv.slice(2));
 args['call']
